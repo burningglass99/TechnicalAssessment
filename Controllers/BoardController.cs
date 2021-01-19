@@ -8,10 +8,10 @@ namespace TechnicalAssessment.Controllers
 {
     /// <summary>
     /// Controller for the interactions with the board
-    /// board is the active board
-    /// nodeFlag is flag determining whether there is an active node or not ie the first node has already been clicked
-    /// playerTwoFlag is used to determine which players turn it is, true = player 2's turn
-    /// activeNode is the valid start node
+    /// <var name="board">board is the active board</var>
+    /// <var name="nodeFlag">nodeFlag is flag a determining whether there is an active node or not ie the first node has already been clicked</var>
+    /// <var name="playerTwoFlag">playerTwoFlag is used to determine which players turn it is, true = player 2's turn</var>
+    /// <var name="activeNode">activeNode is the current valid start node</var>
     /// </summary>
     public class BoardController : Controller
     {
